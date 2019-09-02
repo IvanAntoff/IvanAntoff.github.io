@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<title>Antoff Ivan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('./imgs/background.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle">
+    <p style="text-align: center; color: whitesmoke; text-shadow: 2px 2px black; font-size: 3em;">Antoff Ivan</p>
+    <p style="color: whitesmoke; text-shadow: 2px 2px black; font-size: 2em;">Estudiante - Lic. Sistemas de informacion</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('Menu-Actualidad').style.display='block'" class="w3-button w3-black">Actualidad</button></p>
+    <p><button onclick="document.getElementById('Menu-Historico').style.display='block'" class="w3-button w3-black">Trabajos previos</button></p>
+    <p><button onclick="document.getElementById('Menu-TPS').style.display='block'" class="w3-button w3-black">Desarrollos</button></p>
+    <p><button onclick="document.getElementById('Menu-Presentaciones').style.display='block'" class="w3-button w3-black">Presentaciones</button></p>
+    <p><button onclick="document.getElementById('Menu-Hobbies').style.display='block'" class="w3-button w3-black">Hobbies</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">Contacto</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">Disponibilidad: Lunes a Viernes 08:00 a 18:00</p>
+    <p class="w3-large">Mail: Ivan.Antoff@gmail.com</p>
+    <p>Diseño basado en: <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </div>
+</div>
+
+<!-- Menu-Actualidad -->
+    <div id="Menu-Actualidad" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-container w3-black w3-display-container">
+                <span onclick="document.getElementById('Menu-Actualidad').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                <h1>Trabajos:</h1>
+            </div>
+            <div class="w3-container">
+                <h5>WebMaster: <b>infocdelu.com</b></h5>
+                <h5>Encargado I.T: <b>Radio 10 C. Del U.</b></h5>
+                <h5>Tecnico a domicilio.</h5>
+            </div>
+            <div class="w3-container w3-black">
+                <h1>Universidad:</h1>
+            </div>
+            <div class="w3-container">
+                <h5>Alumno: Lic. Sistemas de Informacion <b>3er año - FCYT UADER - C. Del U.</b></h5>
+                <h5>Presidente: Rama estudiantil IEEE - FCyT UADER <b>2019 - 2020.</b></h5>
+                <h5>Ayudante de laboratorio: <b>Incrementando capacidades.</b></h5>
+                <h5>Ayudante de laboratorio: <b>Baston para no videntes inteligente.</b></h5>
+            </div>
+        </div>
+    </div>
+
+<!-- Menu-Historico -->
+    <div id="Menu-Historico" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-container w3-black w3-display-container">
+                <span onclick="document.getElementById('Menu-Historico').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                <h1></h1>
+            <div class="w3-container w3-black">
+                <h1>Curriculum vitae</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- Menu-TPS -->
+    <div id="Menu-TPS" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-container w3-black w3-display-container">
+                <span onclick="document.getElementById('menu2').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+
+<!-- Menu-TPS -->
+    <div id="Menu-Presentaciones" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom">
+                <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('menu2').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                    <h1></h1>
+                </div>
+            </div>
+    </div>
+
+<!-- Menu-TPS -->
+    <div id="Menu-Hobbies" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-container w3-black w3-display-container">
+                <span onclick="document.getElementById('menu2').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+
+<!-- Contact Modal -->
+    <div id="contact" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-container w3-black">
+                <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                <h1>Contacto</h1>
+            </div>
+            <div class="w3-container">
+                <p>Este formulario se comunicara a mi correo personal - te respondere a la brevedad.</p>
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+                    <p><button class="w3-button" type="submit">Enviar</button></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

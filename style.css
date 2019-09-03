@@ -6,14 +6,14 @@ body, html {height: 100%}
   background-position: center;
   background-size: cover;
 }
-@media screen and (min-width: 1400px) , (min-height: 900px){   
+
+@media screen and (min-width: 1400px){   
     .titulo {
         text-align: center; 
         color: whitesmoke; 
         text-shadow: 2px 2px black; 
         font-size: 3em;
     }
-
     .subtitulo {
         text-align: center; 
         color: whitesmoke; 
@@ -81,7 +81,7 @@ body, html {height: 100%}
     }
  }
  
-@media screen and (max-width:600px), (min-height: 701px){
+@media screen and (max-width:600px) and (min-height: 701px){
     .titulo {
           font-size: 0em;
     }
@@ -90,7 +90,7 @@ body, html {height: 100%}
   }
   .vc-font{
     font-size: 1em;
- }
+}
 }
 
 

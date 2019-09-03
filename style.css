@@ -6,7 +6,7 @@ body, html {height: 100%}
   background-position: center;
   background-size: cover;
 }
-@media screen and (min-width: 1400px) and (min-height: 900px){   
+@media screen and (min-width: 1400px) , (min-height: 900px){   
     .titulo {
         text-align: center; 
         color: whitesmoke; 
@@ -94,7 +94,7 @@ body, html {height: 100%}
 }
 
 
-@media screen and (max-height: 570px) and (max-width:600px){   
+@media screen and (max-height: 570px) , (max-width:600px){   
     .titulo {
         text-align: center; 
         color: whitesmoke; 

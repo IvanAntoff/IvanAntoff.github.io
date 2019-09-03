@@ -11,17 +11,18 @@ body, html {height: 100%}
     .titulo {
         text-align: center; 
         color: whitesmoke; 
-        text-shadow: 2px 2px black; 
+        text-shadow: 3px 3px black; 
         font-size: 3em;
     }
     .subtitulo {
         text-align: center; 
         color: whitesmoke; 
-        text-shadow: 2px 2px black; 
+        text-shadow: 3px 3px black; 
         font-size: 2em;
     }
     .vc-font{
         font-size: 2em;
+        text-shadow: 2px 2px black;
     }
  }
 
@@ -29,18 +30,19 @@ body, html {height: 100%}
     .titulo {
         text-align: center; 
         color: whitesmoke; 
-        text-shadow: 2px 2px black; 
+        text-shadow: 3px 3px black; 
         font-size: 3em;
     }
 
     .subtitulo {
         text-align: center; 
         color: whitesmoke; 
-        text-shadow: 2px 2px black; 
+        text-shadow: 3px 3px black; 
         font-size: 2em;
     }
     .vc-font{
         font-size: 1em;
+        text-shadow: 2px 2px black;
     }
  }
 
@@ -58,7 +60,8 @@ body, html {height: 100%}
         font-size: 2em;
     }
     .vc-font{
-        font-size: 2m;
+        font-size: 2em;
+        text-shadow: 2px 2px black;
     }
  }
 
@@ -78,6 +81,7 @@ body, html {height: 100%}
     }
     .vc-font{
         font-size: 1em;
+        text-shadow: 2px 2px black;
     }
  }
  
@@ -90,6 +94,7 @@ body, html {height: 100%}
   }
   .vc-font{
     font-size: 1em;
+    text-shadow: 2px 2px black;
 }
 }
 
@@ -107,11 +112,9 @@ body, html {height: 100%}
         text-shadow: 2px 2px black; 
         font-size: 0em;
     }
-    .vw-button {
-        font-size: 1em;
-    }
     .vc-font{
         font-size: 0em;
+        text-shadow: 2px 2px black;
     }
  }
 

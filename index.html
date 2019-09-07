@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-<title>Antoff Ivan</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<header>
+    <title>Antoff Ivan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="js/loader.js"></script>
+</header>
 
-<body>
-
-    <div class="bgimg w3-display-container w3-text-white">
+<body onload="load()" style="margin:0;">
+    <div id="loader"></div>
+    <div id="pagina" class="animate-bottom bgimg w3-display-container w3-text-white">
         <div class="w3-display-middle">
             <p class="titulo">Antoff Ivan</p>
             <p class="subtitulo">Nerd en potencia</p>
@@ -200,7 +204,6 @@
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

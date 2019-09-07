@@ -1,4 +1,5 @@
 #loader {
+    background: black;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -6,7 +7,7 @@
     width: 150px;
     height: 150px;
     margin: -75px 0 0 -75px;
-    border: 16px solid #f3f3f3;
+    border: 16px solid #7a7272;
     border-radius: 50%;
     border-top: 16px solid #3498db;
     width: 120px;
@@ -64,6 +65,15 @@
         bottom: 0;
         opacity: 1
     }
+}
+
+#loader-msg {
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    text-shadow: 1px 1px #3498db;
+    padding-top: 35%;
+    padding-left: 46%;
 }
 
 #pagina {

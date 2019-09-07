@@ -6,7 +6,8 @@ h5 {
 
 body,
 html {
-    height: 100%
+    height: 100%;
+    background: black;
 }
 
 .bgimg {

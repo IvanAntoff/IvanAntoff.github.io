@@ -4,8 +4,8 @@
     left: 50%;
     top: 50%;
     z-index: 1;
-    width: 150px;
-    height: 150px;
+    width: 10%;
+    height: 10%;
     margin: -75px 0 0 -75px;
     border: 16px solid #7a7272;
     border-radius: 50%;
@@ -70,12 +70,8 @@
 #loader-msg {
     position: absolute;
     color: white;
-    font-size: 1em;
+    font-size: 16pt;
     text-shadow: 1px 1px #3498db;
-    padding-top: 35%;
-    padding-left: 46%;
-}
-
-#pagina {
-    display: none;
+    top: 61%;
+    left: 45%;
 }

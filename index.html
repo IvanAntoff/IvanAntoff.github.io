@@ -6,38 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/loader.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <script src="js/loader.js"></script>
+    <link rel="stylesheet" href="css/w3.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("loader-msg").style.display = "none";
+            document.getElementById("pagina").style.display = "flex";
+        });
+    </script>
 </header>
 
-<body onload="load()" style="margin:0;">
+<body class="bgimg">
     <div id="loader"></div>
-    <div id="loader-msg">Cargando</div>
-    <div id="pagina" class="animate-bottom bgimg w3-display-container w3-text-white">
-        <div class="w3-display-middle">
-            <p class="titulo">Antoff Ivan</p>
-            <p class="subtitulo">Nerd en potencia</p>
+    <div id="loader-msg"></div>
+    <div id="pagina">
+        <p class="titulo">Antoff Ivan <br> Nerd en potencia</p>
+        <div class="menu menu-izq">
+            <button onclick="document.getElementById('Menu-Actualidad').style.display='block'">Actualidad</button>
+            <button onclick="document.getElementById('Menu-Historico').style.display='block'">Trabajos previos</button>
+            <button onclick="document.getElementById('Menu-TPS').style.display='block'">Desarrollos</button>
+            <button onclick="document.getElementById('Menu-Presentaciones').style.display='block'">Presentaciones</button>
+            <button onclick="document.getElementById('Menu-Hobbies').style.display='block'">Hobbies</button>
+            <a href="mailto:Ivan.Antoff@gmail.com" target="_blank"><button>Contacto</button></a>
         </div>
-        <div class="w3-display-topleft w3-container w3-xlarge">
-            <p><button onclick="document.getElementById('Menu-Actualidad').style.display='block'" class="w3-button w3-black vw-button">Actualidad</button></p>
-            <p><button onclick="document.getElementById('Menu-Historico').style.display='block'" class="w3-button w3-black vw-button">Trabajos previos</button></p>
-            <p><button onclick="document.getElementById('Menu-TPS').style.display='block'" class="w3-button w3-black vw-button">Desarrollos</button></p>
-            <p><button onclick="document.getElementById('Menu-Presentaciones').style.display='block'" class="w3-button w3-black vw-button">Presentaciones</button></p>
-            <p><button onclick="document.getElementById('Menu-Hobbies').style.display='block'" class="w3-button w3-black vw-button">Hobbies</button></p>
-            <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black vw-button">Contacto</button></p>
+        <div class="menu menu-der">
+            <button onclick="window.location='https://twitter.com/Ivan_Antoff'" class="Social-Media-Button tw-button"></button>
+            <button onclick="window.location='https://www.instagram.com/Ivan.Antoff'" class="Social-Media-Button ig-button"></button>
+            <button onclick="window.location='https://www.facebook.com/Ivan.Antoff'" class="Social-Media-Button fb-button"></button>
+            <button onclick="window.location='https://github.com/IvanAntoff/'" class="Social-Media-Button gh-button"></button>
         </div>
-        <div class="w3-display-topright w3-container w3-xlarge">
-            <p><button onclick="window.location='https://twitter.com/Ivan_Antoff'" class="w3-button w3-black tw-button"></button></p>
-            <p><button onclick="window.location='https://www.instagram.com/Ivan.Antoff'" class="w3-button w3-black ig-button"></button></p>
-            <p><button onclick="window.location='https://www.facebook.com/Ivan.Antoff'" class="w3-button w3-black fb-button"></button></p>
-            <p><button onclick="window.location='https://github.com/IvanAntoff/'" class="w3-button w3-black gh-button"></button></p>
-        </div>
-        <div class="vc-font w3-display-bottomleft w3-container">
-            <p>Disponibilidad: Lunes a Viernes 08:00 a 18:00</p>
-            <p>Mail: Ivan.Antoff@gmail.com</p>
-            <p>Diseño basado en: <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-        </div>
+    </div>
+    <div class="footer">
+        <p>Disponibilidad: Lunes a Viernes 08:00 a 18:00</p>
+        <p><a href="mailto:Ivan.Antoff@gmail.com" target="_blank">Mail: Ivan.Antoff@gmail.com</a></p>
+        <p>Diseño basado en: <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </div>
 
     <!-- Menu-Actualidad -->
@@ -65,7 +67,7 @@
     </div>
 
     <!-- Menu-Historico -->
-    <div id="Menu-Historico" class="w3-modal" style="padding-top: 3%">
+    <div id="Menu-Historico" class="w3-modal">
         <div class="w3-modal-content w3-animate-zoom">
             <div class="w3-container w3-black w3-display-container">
                 <span onclick="document.getElementById('Menu-Historico').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
@@ -179,29 +181,6 @@
                 <h5>Agujeros negros y pequeños universos <b style="float: right;">Stephen Hawking</b></h5>
 
 
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Modal -->
-    <div id="contact" class="w3-modal">
-        <div class="w3-modal-content w3-animate-zoom">
-            <div class="w3-container w3-black">
-                <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-                <h1>Contacto</h1>
-            </div>
-            <div class="w3-container">
-                <p>Este formulario se comunicara a mi correo personal - te respondere a la brevedad.</p>
-                <form action="Ivan.Antoff@gmail.com" method="post" enctype="text/plain">
-                    Name:<br>
-                    <input class="w3-input w3-padding-16 w3-border" type="text" name="Nombre"><br> E-mail:
-                    <br>
-                    <input class="w3-input w3-padding-16 w3-border" type="text" name="Email"><br> Comment:
-                    <br>
-                    <input class="w3-input w3-padding-16 w3-border" type="text" name="Mensaje" size="50"><br><br>
-                    <input class="w3-button" type="submit" value="Enviar">
-                    <input class="w3-button" type="reset" value="Limpiar">
-                </form>
             </div>
         </div>
     </div>

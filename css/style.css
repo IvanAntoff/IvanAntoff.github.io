@@ -8,6 +8,7 @@ body{
     height: 100vh;
     width: 100vw;
     background: black;
+    overflow-y: hidden;
 }
 
 #pagina {
@@ -85,7 +86,7 @@ body{
         align-items: flex-end;
         align-content: flex-end;
         justify-items:flex-start;
-        justify-content: space-evenly;
+        justify-content: space-ev;
         padding-right: 1vw;
     }
 }

@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="css/w3.css">
     <script>
         document.addEventListener("DOMContentLoaded", function(event) {
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("loader-msg").style.display = "none";
+            document.getElementById("contenedor-loader").style.display = "none";
             document.getElementById("pagina").style.display = "flex";
         });
     </script>
 </header>
 
 <body class="bgimg">
-    <div id="loader"></div>
-    <div id="loader-msg"></div>
+    <div id="contenedor-loader">
+        <div id="loader"></div>
+        <div id="loader-msg">Cargando</div>
+    </div>
     <div id="pagina">
         <p class="titulo">Antoff Ivan <br> Nerd en potencia</p>
         <div class="menu menu-izq">
